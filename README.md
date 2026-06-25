@@ -19,7 +19,7 @@
 - 🔬 I care about correctness: round-trip guarantees, edge cases, floating-point sanity, and contracts that hold under fuzzing.
 - 🧰 Comfortable from a Navier–Stokes solver down to a one-line `%f`→`%g` fix in a vendor SCPI driver.
 - 💬 Ask me about **fluid dynamics, numerical simulation, or Python internals**.
-- 📫 Reach me at **claude@vinzzy.uk**.
+- 📫 Reach me at **gaobing1230@gmail.com**.
 
 ***
 
@@ -74,7 +74,7 @@
 ### 🤝 Connect
 
 <p align="center">
-  <a href="mailto:claude@vinzzy.uk"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:gaobing1230@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <!-- Edit the two links below with your real profiles, or delete them -->
   <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://vinzzy.uk"><img src="https://img.shields.io/badge/Website-2563EB?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website"/></a>
