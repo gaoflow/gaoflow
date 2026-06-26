@@ -16,6 +16,7 @@
 
 - 🌊 **Fluid-mechanics student** based in **Paris**, working at the intersection of CFD, numerical methods and scientific computing.
 - 🐍 **Prolific open-source contributor** — I hunt real bugs across the Python ecosystem (parsers, scientific libraries, data tooling, serialization) and ship focused, tested pull requests.
+- 🧪 I collect concise debugging write-ups in **[Python Bugfix Notes](https://github.com/gaoflow/python-bugfix-notes)**.
 - 🔬 I care about correctness: round-trip guarantees, edge cases, floating-point sanity, and contracts that hold under fuzzing.
 - 🧰 Comfortable from a Navier–Stokes solver down to a one-line `%f`→`%g` fix in a vendor SCPI driver.
 - 💬 Ask me about **fluid dynamics, numerical simulation, or Python internals**.
