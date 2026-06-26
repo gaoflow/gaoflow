@@ -57,7 +57,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gaoflow&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=ffffff&title_color=2563EB&icon_color=2563EB&text_color=24292e" alt="gaoflow's GitHub stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gaoflow&show_icons=true&count_private=true&hide_border=true&bg_color=ffffff&title_color=2563EB&icon_color=2563EB&text_color=24292e" alt="gaoflow's GitHub stats"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gaoflow&layout=compact&langs_count=8&hide_border=true&bg_color=ffffff&title_color=2563EB&text_color=24292e" alt="Top languages"/>
 </p>
 
