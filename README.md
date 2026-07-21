@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Vincent+Gao+%F0%9F%91%8B;Fluid+Mechanics+student+%40+Paris;Open-source+contributor+to+the+Python+ecosystem;Scientific+computing+%2B+numerical+simulation;I+turn+bugs+into+merged+pull+requests" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Vincent+Gao;Fluid+Mechanics+student+%40+Paris;Open-source+contributor+to+the+Python+ecosystem;Scientific+computing+%2B+numerical+simulation;I+turn+bugs+into+merged+pull+requests" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -12,19 +12,19 @@
 
 ***
 
-### 🧑‍🔬 About Me
+### About Me
 
-- 🌊 **Fluid-mechanics student** based in **Paris**, working at the intersection of CFD, numerical methods and scientific computing.
-- 🐍 **Prolific open-source contributor** — I hunt real bugs across the Python ecosystem (parsers, scientific libraries, data tooling, serialization) and ship focused, tested pull requests.
-- 🧪 I collect concise debugging write-ups in **[Python Bugfix Notes](https://github.com/gaoflow/python-bugfix-notes)**.
-- 🔬 I care about correctness: round-trip guarantees, edge cases, floating-point sanity, and contracts that hold under fuzzing.
-- 🧰 Comfortable from a Navier–Stokes solver down to a one-line `%f`→`%g` fix in a vendor SCPI driver.
-- 💬 Ask me about **fluid dynamics, numerical simulation, or Python internals**.
-- 📫 Reach me at **gaobing1230@gmail.com**.
+- **Fluid-mechanics student** based in **Paris**, working at the intersection of CFD, numerical methods and scientific computing.
+- **Prolific open-source contributor** — I hunt real bugs across the Python ecosystem (parsers, scientific libraries, data tooling, serialization) and ship focused, tested pull requests.
+- I collect concise debugging write-ups in **[Python Bugfix Notes](https://github.com/gaoflow/python-bugfix-notes)**.
+- I care about correctness: round-trip guarantees, edge cases, floating-point sanity, and contracts that hold under fuzzing.
+- Comfortable from a Navier–Stokes solver down to a one-line `%f`→`%g` fix in a vendor SCPI driver.
+- Ask me about **fluid dynamics, numerical simulation, or Python internals**.
+- Reach me at **gaobing1230@gmail.com**.
 
 ***
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Languages**
 
@@ -55,7 +55,7 @@
 
 ***
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gaoflow&show_icons=true&count_private=true&hide_border=true&bg_color=ffffff&title_color=2563EB&icon_color=2563EB&text_color=24292e" alt="gaoflow's GitHub stats"/>
@@ -63,7 +63,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gaoflow&hide_border=true&background=ffffff&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=24292e&currStreakNum=24292e&sideNums=24292e&dates=767676" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com/?user=gaoflow&hide_border=true&background=ffffff&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=24292e&currStreakNum=24292e&sideNums=24292e&dates=767676" alt="GitHub streak"/>
 </p>
 
 <p align="center">
@@ -72,13 +72,9 @@
 
 ***
 
-### 🤝 Connect
+### Connect
 
 <p align="center">
   <a href="mailto:gaobing1230@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <!-- Edit the two links below with your real profiles, or delete them -->
-  <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://vinzzy.uk"><img src="https://img.shields.io/badge/Website-2563EB?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Website"/></a>
 </p>
-
-<p align="center"><i>⭐️ Fixing the bugs you scroll past.</i></p>
