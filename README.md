@@ -14,6 +14,8 @@ I'm Bing Gao, a computational-mechanics engineering student in Paris and an aero
 
 Before returning to engineering study, I spent nearly seven years building mobile software and leading development. I helped take **Lao You** from its first version to more than **2 million users**, wrote 70% of its initial core code, and built delivery, security, and real-time systems. I now apply the same delivery discipline to simulation: geometry, mesh, solver settings, post-processing, acceptance gates, and evidence remain linked.
 
+I also served as a core organizer for **Google Developer Group Beijing** from 2015 to 2023. I organized free technical events that regularly drew more than 200 attendees and featured speakers from Google and Silicon Valley. I also led knowledge-sharing activities around mobile engineering, open-source tools, and emerging engineering topics.
+
 I also contribute upstream across scientific-computing, parser, serialization, data-tooling, and engineering libraries. Each contribution starts from a reproduced defect and ends with a regression test and a narrowly scoped patch. **[Python Bugfix Notes](https://github.com/gaoflow/python-bugfix-notes)** records a few of those investigations; the table below links directly to a broader selection of merged work.
 
 ---
@@ -42,7 +44,7 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
 
 ### `02` · STACK
 
-<h4 align="center">MECHANICAL · SIMULATION · CAD / 3D</h4>
+<h4 align="left">MECHANICAL · SIMULATION · CAD / 3D</h4>
 
 <p align="center">
   <img src="https://www.openfoam.com/themes/bs4esi/img/openfoam-logo.png?v20210416" height="28" alt="OpenFOAM" />
@@ -55,10 +57,10 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
   <img src="https://img.shields.io/badge/SolidWorks-DA1F26?style=flat-square&amp;logo=dassaultsystemes&amp;logoColor=white" alt="SolidWorks" />
   <img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&amp;logo=blender&amp;logoColor=white" alt="Blender" />
   &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" height="28" alt="" /> <code>MATLAB / Simulink</code>
+  <img src="./assets/matlab-simulink-badge.svg" alt="MATLAB / Simulink" />
 </p>
 
-<h4 align="center">SOFTWARE DEVELOPMENT</h4>
+<h4 align="left">SOFTWARE DEVELOPMENT</h4>
 
 <table width="100%">
   <thead>
@@ -72,19 +74,28 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
     <tr>
       <td align="center" valign="top">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue.js" />
+        <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&amp;logo=angular&amp;logoColor=white" alt="Angular" />
       </td>
       <td align="center" valign="top">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&amp;logo=c&amp;logoColor=black" alt="C" />
+        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++" />
+        <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&amp;logo=dotnet&amp;logoColor=white" alt="C#" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&amp;logo=rust&amp;logoColor=white" alt="Rust" />
+        <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&amp;logo=ruby&amp;logoColor=white" alt="Ruby" />
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
         <img src="https://img.shields.io/badge/Ruby_on_Rails-D30001?style=flat-square&amp;logo=rubyonrails&amp;logoColor=white" alt="Ruby on Rails" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
       </td>
       <td align="center" valign="top">
         <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&amp;logo=android&amp;logoColor=white" alt="Android" />
+        <img src="https://img.shields.io/badge/iOS-000000?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="iOS" />
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" />
         <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&amp;logo=kotlin&amp;logoColor=white" alt="Kotlin" />
         <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React Native" />
+        <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&amp;logo=expo&amp;logoColor=white" alt="Expo" />
       </td>
     </tr>
   </tbody>
@@ -100,6 +111,4 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
   <a href="https://www.linkedin.com/in/bing-gao/"><img src="https://img.shields.io/badge/LINKEDIN-BING_GAO-14B8A6?style=for-the-badge&amp;labelColor=0F172A&amp;logo=linkedin&amp;logoColor=white" alt="Bing Gao on LinkedIn" /></a>
   &nbsp;
   <a href="https://vinzzy.com"><img src="https://img.shields.io/badge/HOMEPAGE-vinzzy.com-1B365D?style=for-the-badge&amp;logo=safari&amp;logoColor=white" alt="Bing Gao's homepage" /></a>
-  &nbsp;
-  <a href="https://github.com/gaoflow?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-38BDF8?style=for-the-badge&amp;labelColor=0F172A&amp;logo=github&amp;logoColor=white" alt="Browse gaoflow repositories" /></a>
 </p>
