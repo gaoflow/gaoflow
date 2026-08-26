@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <code>Paris La Défense</code> · <code>CFD Engineer &amp; Developer</code> · <code>Open to CFD / Aerodynamics internships — 2026</code>
+  <code>Paris</code> · <code>CFD Engineer &amp; Developer</code> · <code>Open to safety / Aerodynamic work</code>
 </p>
 
 ---
@@ -14,7 +14,7 @@ I'm Bing Gao, a computational-mechanics engineering student in Paris and an aero
 
 Before returning to engineering study, I spent nearly seven years building mobile software and leading development. I helped take **Lao You** from its first version to more than **2 million users**, wrote 70% of its initial core code, and built delivery, security, and real-time systems. I now apply the same delivery discipline to simulation: geometry, mesh, solver settings, post-processing, acceptance gates, and evidence remain linked.
 
-My open-source work follows the same rule. A parser, numerical routine, serializer, or scientific file reader should fail in a reproducible test before it is changed. I collect the reasoning behind selected fixes in **[Python Bugfix Notes](https://github.com/gaoflow/python-bugfix-notes)**.
+I also contribute upstream across scientific-computing, parser, serialization, data-tooling, and engineering libraries. Each contribution starts from a reproduced defect and ends with a regression test and a narrowly scoped patch. **[Python Bugfix Notes](https://github.com/gaoflow/python-bugfix-notes)** records a few of those investigations; the table below links directly to a broader selection of merged work.
 
 ---
 
@@ -42,32 +42,49 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
 
 ### `02` · STACK
 
+<h4 align="center">MECHANICAL · SIMULATION · CAD / 3D</h4>
+
+<p align="center">
+  <img src="https://www.openfoam.com/themes/bs4esi/img/openfoam-logo.png?v20210416" height="28" alt="OpenFOAM" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Ansys_Fluent-FFB71B?style=flat-square&amp;logo=ansys&amp;logoColor=black" alt="Ansys Fluent" />
+  <img src="https://img.shields.io/badge/Ansys_Mechanical-FFB71B?style=flat-square&amp;logo=ansys&amp;logoColor=black" alt="Ansys Mechanical" />
+  <img src="https://img.shields.io/badge/Simcenter_STAR--CCM%2B-009999?style=flat-square&amp;logo=siemens&amp;logoColor=white" alt="Simcenter STAR-CCM+" />
+  <img src="https://img.shields.io/badge/Abaqus-005386?style=flat-square&amp;logo=dassaultsystemes&amp;logoColor=white" alt="Abaqus" />
+  <img src="https://img.shields.io/badge/CATIA-005386?style=flat-square&amp;logo=dassaultsystemes&amp;logoColor=white" alt="CATIA" />
+  <img src="https://img.shields.io/badge/SolidWorks-DA1F26?style=flat-square&amp;logo=dassaultsystemes&amp;logoColor=white" alt="SolidWorks" />
+  <img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&amp;logo=blender&amp;logoColor=white" alt="Blender" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" height="28" alt="" /> <code>MATLAB / Simulink</code>
+</p>
+
+<h4 align="center">SOFTWARE DEVELOPMENT</h4>
+
 <table width="100%">
   <thead>
     <tr>
-      <th width="34%">SIMULATION</th>
-      <th width="33%">CAD &amp; 3D</th>
-      <th width="33%">SOFTWARE &amp; AUTOMATION</th>
+      <th width="33%">FRONTEND</th>
+      <th width="34%">BACKEND</th>
+      <th width="33%">MOBILE</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center" valign="top">
-        <img src="https://img.shields.io/badge/OpenFOAM-0065BD?style=flat-square" alt="" />
-        <img src="https://img.shields.io/badge/Ansys_Fluent-FFB71B?style=flat-square&amp;logo=ansys&amp;logoColor=black" alt="" />
-        <img src="https://img.shields.io/badge/Abaqus-005386?style=flat-square" alt="" /><br/>
-        <sub>OpenFOAM · Ansys Fluent · Ansys Mechanical · Star-CCM+ · Abaqus</sub><br/>
-        <sub>FVM · RANS · FEA · LBM · POD/DMD · thermal-fluid modelling</sub>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" />
       </td>
       <td align="center" valign="top">
-        <img src="https://skillicons.dev/icons?i=blender&amp;theme=dark" alt="" /><br/>
-        <sub>CATIA · SolidWorks · Blender</sub><br/>
-        <sub>reference reconstruction · geometry audits · browser-ready GLB</sub>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Ruby_on_Rails-D30001?style=flat-square&amp;logo=rubyonrails&amp;logoColor=white" alt="Ruby on Rails" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
       </td>
       <td align="center" valign="top">
-        <img src="https://skillicons.dev/icons?i=python,cpp,rust,java,kotlin,ts,nodejs,ruby&amp;theme=dark" alt="" /><br/>
-        <sub>Python · C/C++ · Rust · Java/Kotlin · TypeScript/React · Node.js · Ruby · Bash</sub><br/>
-        <sub>MATLAB/Simulink · CI/CD · regression testing</sub>
+        <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&amp;logo=android&amp;logoColor=white" alt="Android" />
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&amp;logo=kotlin&amp;logoColor=white" alt="Kotlin" />
+        <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React Native" />
       </td>
     </tr>
   </tbody>
@@ -75,50 +92,14 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
 
 ---
 
-### `03` · THE TOOLBOX
-
-<div align="center">
-
-> `~/toolbox` &nbsp;→&nbsp; the checks around the solver
-
-**`snappyHexMesh`** · **`pytest`** · **`GitHub Actions`** · **`Blender audit scripts`** · **`evidence manifests`** · **`Python/Bash pipelines`**
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,bash,git,github,linux,blender&amp;theme=dark" alt="" />
-
-</div>
-
----
-
-### `04` · SELECTED ENGINEERING WORK
-
-The figures below are taken from my **[current engineering CV](./assets/Bing-Gao-CV.pdf#page=2)**. Each row keeps the validation boundary beside the result.
-
-| Project | Result retained | Declared boundary |
-| --- | --- | --- |
-| `Formula Student Cooling System` | Coupled fan, radiator, pump, and an 80-cell coolant model; found a 10.03 L/min operating point and rejected the unchanged passive E3 architecture before procurement | Numerical screening and OpenFOAM surrogate qualification, not installed-vehicle validation |
-| `F1 External-Aerodynamics RANS Pilot` | Ran a 4.35M-cell OpenFOAM half-car baseline and a 23-variant campaign; retained nine valid sensitivities and preserved two diverged roughness runs | Pilot workflow with material mesh sensitivity; no absolute aerodynamic-performance claim |
-| `FlowLab & FlowROM` | Validated one dependency-free D2Q9 solver at Re=100, then achieved 0.123% rank-8 POD holdout error with 48.8× compression and 0.100% DMD full-state holdout error | Controlled two-dimensional internal flow |
-| `Space Rider Digital Model` | Reconstructed a 4.88 m body from public blueprints, verified ±6 mm side-view and ±8.4 mm top-view agreement, and reduced the browser GLB from 11.6 MB to 639 KB | Reference-led internship work, not manufacturer CAD or flight-article validation |
-| [`AirfRANS conformal-OOD audit`](https://github.com/gaoflow/airfrans-conformal-ood-audit) | Audited grouping, score normalization, calibration allocation, finite-rank refusal, identity overlap, selective availability, and predictor error under physical shift | Target-pool empirical audit; no claim of source-to-OOD conformal validity or field coverage |
-
----
-
-### `05` · CONNECT
-
-<p align="center">
-  If your work needs reproducible CFD, numerical verification, or engineering software that keeps its evidence attached, get in touch.
-</p>
+### `03` · CONNECT
 
 <p align="center">
   <a href="mailto:gaobing1230@gmail.com"><img src="https://img.shields.io/badge/EMAIL-gaobing1230%40gmail.com-2563EB?style=for-the-badge&amp;labelColor=0F172A&amp;logo=gmail&amp;logoColor=white" alt="Email Bing Gao" /></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/bing-gao/"><img src="https://img.shields.io/badge/LINKEDIN-BING_GAO-14B8A6?style=for-the-badge&amp;labelColor=0F172A&amp;logo=linkedin&amp;logoColor=white" alt="Bing Gao on LinkedIn" /></a>
   &nbsp;
-  <a href="./assets/Bing-Gao-CV.pdf"><img src="https://img.shields.io/badge/RESUME-PDF-E2E8F0?style=for-the-badge&amp;labelColor=0F172A&amp;logo=adobeacrobatreader&amp;logoColor=white" alt="Download Bing Gao's CV" /></a>
+  <a href="https://vinzzy.com"><img src="https://img.shields.io/badge/HOMEPAGE-vinzzy.com-1B365D?style=for-the-badge&amp;logo=safari&amp;logoColor=white" alt="Bing Gao's homepage" /></a>
   &nbsp;
   <a href="https://github.com/gaoflow?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-38BDF8?style=for-the-badge&amp;labelColor=0F172A&amp;logo=github&amp;logoColor=white" alt="Browse gaoflow repositories" /></a>
 </p>
-
-<p align="center"><sub><code>$ discuss --topics "CFD | aerodynamics | simulation tooling"</code></sub></p>
