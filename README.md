@@ -10,13 +10,15 @@
 
 ## About Me
 
-Hi, I'm Bing Gao, a computational-mechanics engineering student in Paris and an aerodynamics engineer with **Vinci Eco Drive, ESILV Formula Student**. My current work covers external-aerodynamics CFD, thermal-fluid modelling, numerical verification, and simulation tooling.
+Hi! I'm Bing Gao. I'm pursuing an Engineering Degree in Modelling and Computational Mechanics at **ESILV**, where I am a member of the aerodynamics team at **Vinci Eco Drive**, the school's Formula Student team. My work spans aerodynamic concept and package design, cooling-system design, thermal-fluid modelling, numerical verification, and simulation tooling.
 
-Before returning to engineering study, I spent nearly seven years building mobile software and leading development. I helped take **Lao You** from its first version to more than **2 million users**, wrote 70% of its initial core code, and built delivery, security, and real-time systems. I now apply the same delivery discipline to simulation: geometry, mesh, solver settings, post-processing, acceptance gates, and evidence remain linked.
+Before moving into computational mechanics, I spent nearly eight years in mobile software development and team management. I helped build **Lao You**, a Chinese live-streaming app, from scratch, wrote more than 70% of its core code, and helped grow it to more than **2 million users**. I also built automated delivery and security-monitoring systems for the product.
 
-I also served as a core organizer for **Google Developer Group Beijing** from 2015 to 2023. I organized free technical events that regularly drew more than 200 attendees and featured speakers from Google and Silicon Valley. I also led knowledge-sharing activities around mobile engineering, open-source tools, and emerging engineering topics.
+Today, I bring a programmer's mindset to mechanical design and simulation, treating geometry modelling, meshing, solver setup, post-processing, and acceptance criteria as one reproducible workflow.
 
-I also contribute upstream across scientific-computing, parser, serialization, data-tooling, and engineering libraries. Each contribution starts from a reproduced defect and ends with a regression test and a narrowly scoped patch. The table below links directly to a representative selection of merged work.
+From 2015 to 2023, I served as a core organizer for **Google Developer Group Beijing**. I organized about ten free technical events a year, each typically attracting 200–500 attendees. I invited speakers from Google in Silicon Valley and from major internet companies in Beijing, and I helped organize sessions on mobile and front-end development, Google Cloud, TensorFlow, and later AI technologies.
+
+I contribute to open-source projects in scientific computing, solvers, serialization, and data processing. I focus on libraries I use or evaluate in my own work and on defects I can reproduce directly. I use `Codex` and `Claude Code` to support investigation and testing; I remain responsible for the final patch, review discussion, and regression coverage. The table below highlights representative fixes that have been merged upstream.
 
 ---
 
