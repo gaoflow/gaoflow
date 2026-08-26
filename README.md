@@ -108,5 +108,5 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
   &nbsp;
   <a href="https://www.linkedin.com/in/bing-gao/"><img src="https://img.shields.io/badge/LINKEDIN-BING_GAO-14B8A6?style=for-the-badge&amp;labelColor=0F172A&amp;logo=linkedin&amp;logoColor=white" alt="Bing Gao on LinkedIn" /></a>
   &nbsp;
-  <a href="https://vinzzy.com"><img src="https://img.shields.io/badge/HOMEPAGE-vinzzy.com-1B365D?style=for-the-badge&amp;logo=safari&amp;logoColor=white" alt="Bing Gao's homepage" /></a>
+  <a href="https://vinzzy.com"><img src="https://img.shields.io/badge/HOMEPAGE-vinzzy.com-1B365D?style=for-the-badge" alt="Bing Gao's homepage" /></a>
 </p>
