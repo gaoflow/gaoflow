@@ -28,14 +28,14 @@ More than **600 merged pull requests**. The eight tested fixes below were select
 
 | Project | What changed | Pull request |
 | --- | --- | --- |
-| `SU2` | Fixed Nastran small-field real parsing in the modal structural solver | [`su2code/SU2#2859`](https://github.com/su2code/SU2/pull/2859) |
-| `pandas` | Warned on deprecated epoch formatting for datetime-typed indexes and columns in `to_json` | [`pandas-dev/pandas#65869`](https://github.com/pandas-dev/pandas/pull/65869) |
-| `PhpSpreadsheet` | Fixed incomplete-gamma convergence in `GAMMA.DIST` and `CHISQ.DIST` | [`PHPOffice/PhpSpreadsheet#4945`](https://github.com/PHPOffice/PhpSpreadsheet/pull/4945) |
-| `pypdf` | Recovered PDFs with a corrupt trailing `startxref` pointer | [`py-pdf/pypdf#3826`](https://github.com/py-pdf/pypdf/pull/3826) |
-| `Pylint` | Prevented sync and async context-manager checks from crashing on unnamed inferred nodes | [`pylint-dev/pylint#11103`](https://github.com/pylint-dev/pylint/pull/11103) |
-| `PyVista` | Preserved coordinate dtype when converting `RectilinearGrid` and `ImageData` to `UnstructuredGrid` | [`pyvista/pyvista#8723`](https://github.com/pyvista/pyvista/pull/8723) |
-| `TorchIO` | Preserved image scope when applying inverse transforms | [`TorchIO-project/torchio#1481`](https://github.com/TorchIO-project/torchio/pull/1481) |
-| `python-control` | Prevented matched `c2d`/`sample` from returning NaN for poles or zeros at the origin | [`python-control/python-control#1241`](https://github.com/python-control/python-control/pull/1241) |
+| [`SU2`](https://github.com/su2code/SU2)<br/><img src="https://img.shields.io/github/stars/su2code/SU2?style=flat-square&amp;label=stars&amp;color=1B365D" alt="SU2 GitHub stars" /> | Fixed Nastran small-field real parsing in the modal structural solver | [`su2code/SU2#2859`](https://github.com/su2code/SU2/pull/2859) |
+| [`pandas`](https://github.com/pandas-dev/pandas)<br/><img src="https://img.shields.io/github/stars/pandas-dev/pandas?style=flat-square&amp;label=stars&amp;color=1B365D" alt="pandas GitHub stars" /> | Warned on deprecated epoch formatting for datetime-typed indexes and columns in `to_json` | [`pandas-dev/pandas#65869`](https://github.com/pandas-dev/pandas/pull/65869) |
+| [`PhpSpreadsheet`](https://github.com/PHPOffice/PhpSpreadsheet)<br/><img src="https://img.shields.io/github/stars/PHPOffice/PhpSpreadsheet?style=flat-square&amp;label=stars&amp;color=1B365D" alt="PhpSpreadsheet GitHub stars" /> | Fixed incomplete-gamma convergence in `GAMMA.DIST` and `CHISQ.DIST` | [`PHPOffice/PhpSpreadsheet#4945`](https://github.com/PHPOffice/PhpSpreadsheet/pull/4945) |
+| [`pypdf`](https://github.com/py-pdf/pypdf)<br/><img src="https://img.shields.io/github/stars/py-pdf/pypdf?style=flat-square&amp;label=stars&amp;color=1B365D" alt="pypdf GitHub stars" /> | Recovered PDFs with a corrupt trailing `startxref` pointer | [`py-pdf/pypdf#3826`](https://github.com/py-pdf/pypdf/pull/3826) |
+| [`Pylint`](https://github.com/pylint-dev/pylint)<br/><img src="https://img.shields.io/github/stars/pylint-dev/pylint?style=flat-square&amp;label=stars&amp;color=1B365D" alt="Pylint GitHub stars" /> | Prevented sync and async context-manager checks from crashing on unnamed inferred nodes | [`pylint-dev/pylint#11103`](https://github.com/pylint-dev/pylint/pull/11103) |
+| [`PyVista`](https://github.com/pyvista/pyvista)<br/><img src="https://img.shields.io/github/stars/pyvista/pyvista?style=flat-square&amp;label=stars&amp;color=1B365D" alt="PyVista GitHub stars" /> | Preserved coordinate dtype when converting `RectilinearGrid` and `ImageData` to `UnstructuredGrid` | [`pyvista/pyvista#8723`](https://github.com/pyvista/pyvista/pull/8723) |
+| [`TorchIO`](https://github.com/TorchIO-project/torchio)<br/><img src="https://img.shields.io/github/stars/TorchIO-project/torchio?style=flat-square&amp;label=stars&amp;color=1B365D" alt="TorchIO GitHub stars" /> | Preserved image scope when applying inverse transforms | [`TorchIO-project/torchio#1481`](https://github.com/TorchIO-project/torchio/pull/1481) |
+| [`python-control`](https://github.com/python-control/python-control)<br/><img src="https://img.shields.io/github/stars/python-control/python-control?style=flat-square&amp;label=stars&amp;color=1B365D" alt="python-control GitHub stars" /> | Prevented matched `c2d`/`sample` from returning NaN for poles or zeros at the origin | [`python-control/python-control#1241`](https://github.com/python-control/python-control/pull/1241) |
 
 ---
 
