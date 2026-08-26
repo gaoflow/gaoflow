@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="150" viewBox="0 0 680 150" role="img" aria-labelledby="title desc">
+  <title id="title">609 merged pull requests by @gaoflow</title>
+  <desc id="desc">Live GitHub metric showing 609 merged pull requests authored by @gaoflow.</desc>
+  <defs>
+    <linearGradient id="surface" x1="18" y1="14" x2="662" y2="136" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAF9F5"/>
+      <stop offset="1" stop-color="#EEF2F7"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+  <rect width="680" height="150" fill="#F5F4ED"/>
+  <rect x="1" y="1" width="678" height="148" rx="14" fill="url(#surface)" stroke="#D8D5C9" stroke-width="2"/>
+  <g opacity=".65" stroke="#E8E6DC">
+    <path d="M1 50H679M1 100H679"/>
+    <path d="M170 1V149M340 1V149M510 1V149"/>
+  </g>
+  <g class="mono">
+    <text x="36" y="36" font-size="11" letter-spacing="2.4" fill="#6B6A64">OPEN-SOURCE TRACK RECORD</text>
+    <text x="34" y="116" font-size="64" font-weight="700" letter-spacing="1" fill="#141413">609</text>
+    <text x="238" y="78" font-size="20" font-weight="700" letter-spacing="1.8" fill="#1B365D">MERGED PULL REQUESTS</text>
+    <text x="240" y="104" font-size="11" letter-spacing="2" fill="#6B6A64">AUTHORED BY @GAOFLOW</text>
+  </g>
+  <g transform="translate(600 40)" fill="none" stroke="#1B365D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="6" fill="#FAF9F5"/>
+    <circle cx="12" cy="70" r="6" fill="#FAF9F5"/>
+    <circle cx="48" cy="41" r="6" fill="#FAF9F5" stroke="#8B4513"/>
+    <path d="M12 18V64M18 41H31C40 41 48 33 48 24V18M42 24L48 18L54 24"/>
+  </g>
+  <path d="M18 34V18H34M646 18H662V34M18 116V132H34M646 132H662V116" stroke="#1B365D" stroke-width="1.5" opacity=".72"/>
+</svg>

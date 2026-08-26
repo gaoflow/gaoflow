@@ -16,13 +16,19 @@ Before returning to engineering study, I spent nearly seven years building mobil
 
 I also served as a core organizer for **Google Developer Group Beijing** from 2015 to 2023. I organized free technical events that regularly drew more than 200 attendees and featured speakers from Google and Silicon Valley. I also led knowledge-sharing activities around mobile engineering, open-source tools, and emerging engineering topics.
 
-I also contribute upstream across scientific-computing, parser, serialization, data-tooling, and engineering libraries. Each contribution starts from a reproduced defect and ends with a regression test and a narrowly scoped patch. **[Python Bugfix Notes](https://github.com/gaoflow/python-bugfix-notes)** records a few of those investigations; the table below links directly to a broader selection of merged work.
+I also contribute upstream across scientific-computing, parser, serialization, data-tooling, and engineering libraries. Each contribution starts from a reproduced defect and ends with a regression test and a narrowly scoped patch. The table below links directly to a representative selection of merged work.
 
 ---
 
 ### `01` · OPEN SOURCE CONTRIBUTIONS
 
-More than **600 merged pull requests** across scientific computing, parsers, serialization, data tooling, and numerical libraries. A representative selection:
+<p align="center">
+  <a href="https://github.com/search?q=is%3Apr+author%3Agaoflow+is%3Amerged&amp;type=pullrequests">
+    <img src="./assets/merged-prs.svg" width="680" alt="Current merged pull-request count for gaoflow; view all merged pull requests" />
+  </a>
+</p>
+
+A representative selection:
 
 | Project | What changed | Pull request |
 | --- | --- | --- |
@@ -35,8 +41,6 @@ More than **600 merged pull requests** across scientific computing, parsers, ser
 | `jsonpickle` | Rebuilt NumPy scalars from their declared dtype and preserved datetime fold | [`jsonpickle/jsonpickle#619`](https://github.com/jsonpickle/jsonpickle/pull/619) · [`#618`](https://github.com/jsonpickle/jsonpickle/pull/618) |
 | `py7zr` | Required passwords for crypto write filters and bounded extract worker tasks | [`miurahr/py7zr#739`](https://github.com/miurahr/py7zr/pull/739) · [`#740`](https://github.com/miurahr/py7zr/pull/740) |
 | `sqlparse` | Recognized `MATERIALIZED` as a SQL keyword | [`andialbrecht/sqlparse#854`](https://github.com/andialbrecht/sqlparse/pull/854) |
-
-<p align="right"><a href="https://github.com/search?q=is%3Apr+author%3Agaoflow+is%3Amerged&type=pullrequests">Browse all merged pull requests →</a></p>
 
 ---
 
