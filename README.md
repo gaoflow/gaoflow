@@ -22,9 +22,7 @@ I also contribute upstream across scientific-computing, parser, serialization, d
 
 ### `01` · OPEN SOURCE CONTRIBUTIONS
 
-<!-- merged-pr-count:start -->
-[**609 merged pull requests**](https://github.com/search?q=is%3Apr+author%3Agaoflow+is%3Amerged&type=pullrequests) across scientific computing, parsers, serialization, data tooling, and numerical libraries. A representative selection:
-<!-- merged-pr-count:end -->
+More than **600 merged pull requests** across scientific computing, parsers, serialization, data tooling, and numerical libraries. A representative selection:
 
 | Project | What changed | Pull request |
 | --- | --- | --- |
