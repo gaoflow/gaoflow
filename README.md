@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <code>Paris</code> · <code>CFD Engineer &amp; Developer</code> · <code>Open to safety / Aerodynamic work</code>
+  <code>Paris</code> · <code>CFD Engineer &amp; Developer</code> · <code>Open to CFD / Aerodynamic work</code>
 </p>
 
 ---
@@ -21,8 +21,6 @@ I also contribute upstream across scientific-computing, parser, serialization, d
 ---
 
 ### `01` · OPEN SOURCE CONTRIBUTIONS
-
-> `reproduce → isolate the contract → add a regression test → make the smallest correct patch`
 
 More than **600 merged pull requests** across scientific computing, parsers, serialization, data tooling, and numerical libraries. A representative selection:
 
