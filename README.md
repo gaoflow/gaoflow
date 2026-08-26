@@ -22,19 +22,18 @@ I also contribute upstream across scientific-computing, parser, serialization, d
 
 ### `01` · OPEN SOURCE CONTRIBUTIONS
 
-More than **600 merged pull requests** across scientific computing, parsers, serialization, data tooling, and numerical libraries. A representative selection:
+More than **600 merged pull requests**. The eight tested fixes below were selected collectively for technical depth, substantive maintainer discussion, project reach, and, where applicable, relevance to scientific computing and CFD.
 
 | Project | What changed | Pull request |
 | --- | --- | --- |
 | `SU2` | Fixed Nastran small-field real parsing in the modal structural solver | [`su2code/SU2#2859`](https://github.com/su2code/SU2/pull/2859) |
-| `PyFR` | Namespaced Gmsh physical-group IDs by dimension | [`PyFR/PyFR#580`](https://github.com/PyFR/PyFR/pull/580) |
-| `statsmodels` | Back-transformed the univariate smoothed measurement disturbance | [`statsmodels/statsmodels#9979`](https://github.com/statsmodels/statsmodels/pull/9979) |
-| `foamlib` | Preserved unit scale multipliers and accepted OpenFOAM-legal dictionary grammar | [`gerlero/foamlib#833`](https://github.com/gerlero/foamlib/pull/833) · [`#829`](https://github.com/gerlero/foamlib/pull/829) |
-| `PyMeasure` | Prevented SR830/SR860 auxiliary outputs from truncating sub-microvolt values | [`pymeasure/pymeasure#1495`](https://github.com/pymeasure/pymeasure/pull/1495) |
-| `pyserde` | Fixed heterogeneous enum deserialization and Optional/Union serialization | [`yukinarit/pyserde#774`](https://github.com/yukinarit/pyserde/pull/774) · [`#764`](https://github.com/yukinarit/pyserde/pull/764) |
-| `jsonpickle` | Rebuilt NumPy scalars from their declared dtype and preserved datetime fold | [`jsonpickle/jsonpickle#619`](https://github.com/jsonpickle/jsonpickle/pull/619) · [`#618`](https://github.com/jsonpickle/jsonpickle/pull/618) |
-| `py7zr` | Required passwords for crypto write filters and bounded extract worker tasks | [`miurahr/py7zr#739`](https://github.com/miurahr/py7zr/pull/739) · [`#740`](https://github.com/miurahr/py7zr/pull/740) |
-| `sqlparse` | Recognized `MATERIALIZED` as a SQL keyword | [`andialbrecht/sqlparse#854`](https://github.com/andialbrecht/sqlparse/pull/854) |
+| `pandas` | Warned on deprecated epoch formatting for datetime-typed indexes and columns in `to_json` | [`pandas-dev/pandas#65869`](https://github.com/pandas-dev/pandas/pull/65869) |
+| `PhpSpreadsheet` | Fixed incomplete-gamma convergence in `GAMMA.DIST` and `CHISQ.DIST` | [`PHPOffice/PhpSpreadsheet#4945`](https://github.com/PHPOffice/PhpSpreadsheet/pull/4945) |
+| `pypdf` | Recovered PDFs with a corrupt trailing `startxref` pointer | [`py-pdf/pypdf#3826`](https://github.com/py-pdf/pypdf/pull/3826) |
+| `Pylint` | Prevented sync and async context-manager checks from crashing on unnamed inferred nodes | [`pylint-dev/pylint#11103`](https://github.com/pylint-dev/pylint/pull/11103) |
+| `PyVista` | Preserved coordinate dtype when converting `RectilinearGrid` and `ImageData` to `UnstructuredGrid` | [`pyvista/pyvista#8723`](https://github.com/pyvista/pyvista/pull/8723) |
+| `TorchIO` | Preserved image scope when applying inverse transforms | [`TorchIO-project/torchio#1481`](https://github.com/TorchIO-project/torchio/pull/1481) |
+| `python-control` | Prevented matched `c2d`/`sample` from returning NaN for poles or zeros at the origin | [`python-control/python-control#1241`](https://github.com/python-control/python-control/pull/1241) |
 
 ---
 
