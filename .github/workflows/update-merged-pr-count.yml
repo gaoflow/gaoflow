@@ -1,4 +1,4 @@
-name: Update merged PR card
+name: Update merged PR count
 
 on:
   schedule:
@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: gaoflow-merged-pr-card
+  group: gaoflow-merged-pr-count
   cancel-in-progress: false
 
 jobs:
-  update-card:
+  update-count:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -23,19 +23,19 @@ jobs:
         with:
           ref: main
 
-      - name: Query GitHub and render the SVG
-        id: render
+      - name: Query GitHub and update the README
+        id: update
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_USERNAME: gaoflow
         run: |
-          count=$(python3 scripts/update_merged_pr_card.py)
+          count=$(python3 scripts/update_merged_pr_count.py)
           echo "count=$count" >> "$GITHUB_OUTPUT"
 
       - name: Verify the change scope
         id: changes
         run: |
-          if ! git diff --quiet -- . ':(exclude)assets/merged-prs.svg'; then
+          if ! git diff --quiet -- . ':(exclude)README.md'; then
             echo "Unexpected tracked files changed" >&2
             git status --short >&2
             exit 1
@@ -47,20 +47,20 @@ jobs:
             exit 1
           fi
 
-          if git diff --quiet -- assets/merged-prs.svg; then
+          if git diff --quiet -- README.md; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-      - name: Commit the refreshed card
+      - name: Commit the refreshed count
         if: steps.changes.outputs.changed == 'true'
         env:
-          COUNT: ${{ steps.render.outputs.count }}
+          COUNT: ${{ steps.update.outputs.count }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/merged-prs.svg
+          git add README.md
           git commit -m "chore(profile): update merged PR count to ${COUNT} [skip ci]"
           git push origin HEAD:main

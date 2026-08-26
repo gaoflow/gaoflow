@@ -10,7 +10,7 @@
 
 ## About Me
 
-I'm Bing Gao, a computational-mechanics engineering student in Paris and an aerodynamics engineer with **Vinci Eco Drive, ESILV Formula Student**. My current work covers external-aerodynamics CFD, thermal-fluid modelling, numerical verification, and simulation tooling.
+Hi, I'm Bing Gao, a computational-mechanics engineering student in Paris and an aerodynamics engineer with **Vinci Eco Drive, ESILV Formula Student**. My current work covers external-aerodynamics CFD, thermal-fluid modelling, numerical verification, and simulation tooling.
 
 Before returning to engineering study, I spent nearly seven years building mobile software and leading development. I helped take **Lao You** from its first version to more than **2 million users**, wrote 70% of its initial core code, and built delivery, security, and real-time systems. I now apply the same delivery discipline to simulation: geometry, mesh, solver settings, post-processing, acceptance gates, and evidence remain linked.
 
@@ -22,13 +22,9 @@ I also contribute upstream across scientific-computing, parser, serialization, d
 
 ### `01` · OPEN SOURCE CONTRIBUTIONS
 
-<p align="center">
-  <a href="https://github.com/search?q=is%3Apr+author%3Agaoflow+is%3Amerged&amp;type=pullrequests">
-    <img src="./assets/merged-prs.svg" width="680" alt="Current merged pull-request count for gaoflow; view all merged pull requests" />
-  </a>
-</p>
-
-A representative selection:
+<!-- merged-pr-count:start -->
+[**609 merged pull requests**](https://github.com/search?q=is%3Apr+author%3Agaoflow+is%3Amerged&type=pullrequests) across scientific computing, parsers, serialization, data tooling, and numerical libraries. A representative selection:
+<!-- merged-pr-count:end -->
 
 | Project | What changed | Pull request |
 | --- | --- | --- |

@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
-"""Generate the profile's merged pull-request SVG from GitHub GraphQL."""
+"""Update the merged pull-request count embedded in the profile README."""
 
 from __future__ import annotations
 
 import argparse
-import html
 import json
 import os
+import re
 import sys
 import tempfile
 import urllib.error
 import urllib.request
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUTPUT = ROOT / "assets" / "merged-prs.svg"
+DEFAULT_OUTPUT = ROOT / "README.md"
 GRAPHQL_URL = "https://api.github.com/graphql"
+START_MARKER = "<!-- merged-pr-count:start -->"
+END_MARKER = "<!-- merged-pr-count:end -->"
+COUNT_PATTERN = re.compile(r"\*\*(\d+) merged pull requests\*\*")
 QUERY = """
 query MergedPullRequests($login: String!) {
   user(login: $login) {
@@ -45,7 +47,7 @@ def fetch_merged_pr_count(login: str, token: str) -> int:
         headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
-            "User-Agent": "gaoflow-profile-merged-pr-card",
+            "User-Agent": "gaoflow-profile-merged-pr-count",
         },
         method="POST",
     )
@@ -67,45 +69,26 @@ def fetch_merged_pr_count(login: str, token: str) -> int:
     return validate_count(count)
 
 
-def render_svg(count: int, login: str) -> str:
+def replace_count(readme: str, count: int) -> str:
     count = validate_count(count)
-    safe_login = html.escape(login.strip(), quote=True)
-    if not safe_login:
-        raise ValueError("GitHub login must not be empty")
+    if readme.count(START_MARKER) != 1 or readme.count(END_MARKER) != 1:
+        raise ValueError("README must contain exactly one merged PR marker pair")
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="680" height="150" viewBox="0 0 680 150" role="img" aria-labelledby="title desc">
-  <title id="title">{count} merged pull requests by @{safe_login}</title>
-  <desc id="desc">Live GitHub metric showing {count} merged pull requests authored by @{safe_login}.</desc>
-  <defs>
-    <linearGradient id="surface" x1="18" y1="14" x2="662" y2="136" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FAF9F5"/>
-      <stop offset="1" stop-color="#EEF2F7"/>
-    </linearGradient>
-    <style>
-      .mono {{ font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }}
-    </style>
-  </defs>
-  <rect width="680" height="150" fill="#F5F4ED"/>
-  <rect x="1" y="1" width="678" height="148" rx="14" fill="url(#surface)" stroke="#D8D5C9" stroke-width="2"/>
-  <g opacity=".65" stroke="#E8E6DC">
-    <path d="M1 50H679M1 100H679"/>
-    <path d="M170 1V149M340 1V149M510 1V149"/>
-  </g>
-  <g class="mono">
-    <text x="36" y="36" font-size="11" letter-spacing="2.4" fill="#6B6A64">OPEN-SOURCE TRACK RECORD</text>
-    <text x="34" y="116" font-size="64" font-weight="700" letter-spacing="1" fill="#141413">{count}</text>
-    <text x="238" y="78" font-size="20" font-weight="700" letter-spacing="1.8" fill="#1B365D">MERGED PULL REQUESTS</text>
-    <text x="240" y="104" font-size="11" letter-spacing="2" fill="#6B6A64">AUTHORED BY @{safe_login.upper()}</text>
-  </g>
-  <g transform="translate(600 40)" fill="none" stroke="#1B365D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="6" fill="#FAF9F5"/>
-    <circle cx="12" cy="70" r="6" fill="#FAF9F5"/>
-    <circle cx="48" cy="41" r="6" fill="#FAF9F5" stroke="#8B4513"/>
-    <path d="M12 18V64M18 41H31C40 41 48 33 48 24V18M42 24L48 18L54 24"/>
-  </g>
-  <path d="M18 34V18H34M646 18H662V34M18 116V132H34M646 132H662V116" stroke="#1B365D" stroke-width="1.5" opacity=".72"/>
-</svg>
-"""
+    start = readme.index(START_MARKER)
+    end = readme.index(END_MARKER)
+    if start >= end:
+        raise ValueError("merged PR markers are reversed")
+
+    block_start = start + len(START_MARKER)
+    block = readme[block_start:end]
+    matches = list(COUNT_PATTERN.finditer(block))
+    if len(matches) != 1:
+        raise ValueError("merged PR marker block must contain exactly one count phrase")
+
+    updated_block = COUNT_PATTERN.sub(
+        f"**{count} merged pull requests**", block, count=1
+    )
+    return readme[:block_start] + updated_block + readme[end:]
 
 
 def write_if_changed(output: Path, content: str) -> bool:
@@ -143,6 +126,8 @@ def main() -> int:
     login = args.login.strip()
     if not login:
         raise ValueError("GitHub login must not be empty")
+    if not args.output.exists():
+        raise RuntimeError(f"README not found: {args.output}")
 
     if args.count is None:
         token = os.environ.get("GITHUB_TOKEN")
@@ -152,9 +137,9 @@ def main() -> int:
     else:
         count = validate_count(args.count)
 
-    svg = render_svg(count, login)
-    ET.fromstring(svg)
-    changed = write_if_changed(args.output, svg)
+    original = args.output.read_text(encoding="utf-8")
+    updated = replace_count(original, count)
+    changed = write_if_changed(args.output, updated)
     print(count)
     print("updated" if changed else "unchanged", file=sys.stderr)
     return 0
