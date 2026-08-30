@@ -18,8 +18,6 @@ Additionally, from 2015 to 2023, I served as a core organizer for Google Develop
 
 Finally, I am an open-source contributor on GitHub, focusing on scientific computing, numerical solvers, serialization, and data processing tools. Every library I contribute to is one I actively use in my projects, and every Pull Request stems from a real-world problem I encountered. Leveraging modern tools like Codex and Claude Code, I can identify and resolve issues more efficiently. Furthermore, I maintain a strict regression testing workflow to guarantee the stability and quality of all my merged PRs.
 
-The table below highlights a selection of representative merged contributions:
-
 ---
 
 ### `01` · OPEN SOURCE CONTRIBUTIONS
