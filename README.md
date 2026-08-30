@@ -10,15 +10,15 @@
 
 ## About Me
 
-Hi! I'm Bing Gao. I'm pursuing an Engineering Degree in Modelling and Computational Mechanics at **ESILV**, where I am a member of the aerodynamics team at **Vinci Eco Drive**, the school's Formula Student team. My work spans aerodynamic concept and package design, cooling-system design, thermal-fluid modelling, numerical verification, and simulation tooling.
+Hi! 👋 I'm Bing Gao, a master's student in Computational Mechanics Engineering at the École Supérieure d'Ingénieurs Léonard de Vinci ([ESILV](https://www.esilv.fr/)). I also work on the aerodynamics team at **Vinci Eco Drive**, our school's Formula Student racing team. My responsibilities include aerodynamic concept and package design, cooling-system design, thermal-fluid modelling, numerical verification and validation, and custom simulation tooling.
 
-Before moving into computational mechanics, I spent nearly eight years in mobile software development and team management. I helped build **Lao You**, a Chinese live-streaming app, from scratch, wrote more than 70% of its core code, and helped grow it to more than **2 million users**. I also built automated delivery and security-monitoring systems for the product.
+Before moving into computational mechanics, I spent nearly eight years in mobile software development and team management. I was a core developer of **Lao You** ("Old Friend" in Chinese; [iOS](https://apps.apple.com/us/app/%E8%80%81%E6%9F%9A/id1157853494), [Android](https://sj.qq.com/appdetail/com.laoyouzhibo.app)), a Chinese live-streaming app. I helped build the product from scratch, wrote more than 70% of its core code, and helped grow it to more than **2 million users**. My work covered audio/video codecs, live-room architecture, complex business logic, cross-platform development with React Native and Flutter, hotfix delivery, application security, code obfuscation, and CI/CD automation.
 
-Today, I bring a programmer's mindset to mechanical design and simulation, treating geometry modelling, meshing, solver setup, post-processing, and acceptance criteria as one reproducible workflow.
+Today, I bring that software-engineering discipline to mechanical design and simulation. I approach geometry modelling, meshing, solver setup, post-processing, and acceptance criteria as parts of one reproducible workflow.
 
-From 2015 to 2023, I served as a core organizer for **Google Developer Group Beijing**. I organized about ten free technical events a year, each typically attracting 200–500 attendees. I invited speakers from Google in Silicon Valley and from major internet companies in Beijing, and I helped organize sessions on mobile and front-end development, Google Cloud, TensorFlow, and later AI technologies.
+From 2015 to 2023, I served as a core organizer for **Google Developer Group Beijing (GDG Beijing)**. I organized at least five free technical events each year, with 200–1,000 attendees per event. I invited engineers and technical experts from Google and leading Beijing technology companies to speak. I also helped organize sessions on mobile and front-end development, Google Cloud, TensorFlow, and emerging AI technologies.
 
-I contribute to open-source projects in scientific computing, solvers, serialization, and data processing. I focus on libraries I use or evaluate in my own work and on defects I can reproduce directly. I use `Codex` and `Claude Code` to support investigation and testing; I remain responsible for the final patch, review discussion, and regression coverage. The table below highlights representative fixes that have been merged upstream.
+I contribute to open-source projects in scientific computing, numerical solvers, serialization, and data-processing tooling. I focus on libraries I use or evaluate in my own projects and on issues I can reproduce from real usage or documented reports. I use `Codex` and `Claude Code` to support investigation, testing, and implementation; I remain responsible for the final patch, review discussion, and regression coverage. The table below highlights representative contributions that have been merged upstream.
 
 ---
 
