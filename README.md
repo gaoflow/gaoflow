@@ -114,5 +114,5 @@ More than **600 merged pull requests**. The eight tested fixes below were select
   &nbsp;
   <a href="https://www.linkedin.com/in/binggao1230/"><img src="https://img.shields.io/badge/LINKEDIN-BING_GAO-14B8A6?style=for-the-badge&amp;labelColor=0F172A&amp;logo=linkedin&amp;logoColor=white" alt="Bing Gao on LinkedIn" /></a>
   &nbsp;
-  <a href="https://binggao.dev"><img src="https://img.shields.io/badge/HOMEPAGE-binggao.dev-1B365D?style=for-the-badge" alt="Bing Gao's homepage" /></a>
+  <a href="https://binggao.dev/?utm_source=github&amp;utm_medium=profile&amp;utm_campaign=github-profile"><img src="https://img.shields.io/badge/HOMEPAGE-binggao.dev-1B365D?style=for-the-badge" alt="Bing Gao's homepage" /></a><img src="https://metrics.binggao.dev/github-profile.gif" width="0" height="0" alt="" />
 </p>
