@@ -101,7 +101,7 @@ More than **600 merged pull requests**. The eight tested fixes below were select
 ### `03` · CONNECT
 
 <p align="center">
-  <a href="mailto:gaobing1230@gmail.com"><img src="https://img.shields.io/badge/EMAIL-gaobing1230%40gmail.com-2563EB?style=for-the-badge&amp;labelColor=0F172A&amp;logo=gmail&amp;logoColor=white" alt="Email Bing Gao" /></a>
+  <a href="mailto:binggao1230@gmail.com"><img src="https://img.shields.io/badge/EMAIL-binggao1230%40gmail.com-2563EB?style=for-the-badge&amp;labelColor=0F172A&amp;logo=gmail&amp;logoColor=white" alt="Email Bing Gao" /></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/bing-gao/"><img src="https://img.shields.io/badge/LINKEDIN-BING_GAO-14B8A6?style=for-the-badge&amp;labelColor=0F172A&amp;logo=linkedin&amp;logoColor=white" alt="Bing Gao on LinkedIn" /></a>
   &nbsp;
